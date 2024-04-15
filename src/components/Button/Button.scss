@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    background: linear-gradient(to right, #2d56ec, #1aacea);
+    // background-color: #1353DD;
+    color: white;
+    width: 113px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    // padding: 12px 20px 12px 20px;
+
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 16;
+    color: #f8fafc;
+}
