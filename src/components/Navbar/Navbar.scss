@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 68px;
+    background-color: #e0f0ff;
+    padding-left: 5%;
+    padding-right: 5%;
+    // border: red solid 2px;
+    // border-bottom: red solid 1px;
+    // margin-left: 40px;
+    // padding: 50px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    // justify-content: space-evenly;
+}
+
+.text{
+    font-family: "Inter";
+    font-weight: 400;
+    color: #64748B;
+}

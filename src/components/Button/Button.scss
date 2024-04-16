@@ -1,13 +1,16 @@
 .container {
     display: flex;
+    flex-direction: row;
+    // flex-direction: column;
     background: linear-gradient(to right, #2d56ec, #1aacea);
     // background-color: #1353DD;
-    color: white;
-    width: 113px;
-    height: 44px;
+    // color: white;
+    // width: 113px;
+    max-height: 44px;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    // border: none;i
     // padding: 12px 20px 12px 20px;
 
     font-family: "Inter";

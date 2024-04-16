@@ -1,6 +1,8 @@
 <template>
     <div class="container">
-        Start trial
+        <div>Start</div>
+        &nbsp;
+        <div>trial</div>
     </div>
 </template>
 
