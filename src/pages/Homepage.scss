@@ -1,14 +1,14 @@
-.container{
+.container {
     // padding-left: 5%;
     // padding-right: 5%;
 }
 
-.nav-bottomline{
+.nav-bottomline {
     height: 1px;
-    background-color: #CBD5E1;
+    background-color: #cbd5e1;
 }
 
-.hero{
+.hero {
     display: flex;
     flex-direction: column;
     // justify-content: center;
@@ -16,47 +16,98 @@
     padding-top: 56px;
     padding-bottom: 56px;
     gap: 26px;
-    background: linear-gradient(to bottom, #e0f0ff, white)
+    background: linear-gradient(to bottom, #e0f0ff, white);
 }
 
-.text1{
+.text1 {
     font-family: "Inter";
     font-size: 28px;
     font-weight: 500;
-    background: linear-gradient(to right, #2D56EC, #1AACEA);
-    -webkit-text-fill-color: transparent; 
+    background: linear-gradient(to right, #2d56ec, #1aacea);
+    -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     padding-left: 10%;
     padding-right: 10%;
     justify-content: center;
     align-items: center;
+    text-align: center;
+
+    @media (max-width: 650px){
+        font-size: 16px;
+    //     padding-left: 13%;
+    // padding-right: 13%;
+    }
     // padding-left: 21%;
     // padding-right: 21%;
 }
 
 @font-face {
-    font-family: 'Extatica';
-    src: url('../assests/fonts/Extatica/Extatica-Medium.otf') format('truetype');
-  }
+    font-family: "Extatica";
+    src: url("../assests/fonts/Extatica/Extatica-Medium.otf") format("truetype");
+}
 
-.text2{
+.text2 {
     font-family: "Extatica";
     font-size: 56px;
     font-weight: 600;
     color: #334155;
     padding-left: 10%;
     padding-right: 10%;
+    text-align: center;
+
+    @media (max-width: 650px){
+        font-size: 28px;
+        padding-left: 13%;
+    padding-right: 13%;
+    }
     // padding-left: 21%;
     // padding-right: 21%;
 }
 
-.text3{
-    color: #64748B;
+.text3 {
+    color: #64748b;
     font-family: "Inter";
     font-size: 20px;
     font-weight: 400;
     padding-left: 21%;
     padding-right: 21%;
     text-align: center;
+
+    @media (max-width: 650px){
+        font-size: 13px;
+        padding-left: 10%;
+    padding-right: 10%;
+    }
+
     // align-self: center;
+}
+
+.BottomForm {
+    display: flex;
+    flex-direction: column;
+    background-color: #e3f0f9;
+    padding: 42px 0 42px 0;
+    gap: 36px;
+
+    @media (max-width: 650px){
+        display: none;
+    }
+}
+
+.Headline2Text {
+    font-family: Extatica;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 51.2px;
+    text-align: center;
+
+    background: linear-gradient(to right, #355ded, #6f33f0, #2d56ec, #2480eb, #1aacea);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    padding-left: 10%;
+    padding-right: 10%;
+    // justify-content: center;
+    // align-items: center;
+    // padding-left: 21%;
+    // padding-right: 21%;
 }
