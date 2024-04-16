@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <!-- <ButtonComponent /> -->
-    <!-- <NavbarComponent/>
-    <div class="nav-bottomline"></div> -->
+    <NavbarComponent />
+    <!-- <div class="nav-bottomline"></div> -->
     <div class="hero">
       <div class="text1">The World’s Most Configurable</div>
       <div class="text2">Travel & Expense Management Software</div>

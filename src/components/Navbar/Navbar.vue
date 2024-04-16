@@ -10,6 +10,9 @@
             <div class="text">Integrations</div>
             <ButtonComponent />
         </div>
+        <div class="hamburger">
+            <img src="public/Hamburger.svg" alt="">
+        </div>
     </div>
 </template>
 
