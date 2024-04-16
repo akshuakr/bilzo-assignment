@@ -1,5 +1,8 @@
 <template>
   <div>
+    <nuxt-head>
+      <title>Bilzo Assignment - Akshansh</title>
+    </nuxt-head>
     <Homepage />
   </div>
 </template>
