@@ -36,7 +36,7 @@ export default {
 <style>
 .carousel-container {
     overflow: hidden;
-    overflow: ;
+    /* overflow: ; */
 }
 
 .image-carousel {
