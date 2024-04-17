@@ -58,6 +58,7 @@
       <div class="Headline2Text">Manage your travel and expenses the smart way!</div>
       <FormComponent :bottomForm="true" />
     </div>
+    <FooterComponent />
   </div>
 </template>
 
@@ -69,6 +70,7 @@ import FormComponent from '../components/Form/Form.vue';
 import FeaturesComponent from '../components/Features/Features.vue';
 import ImageCarouselComponent from '../components/Carousel/Carousel.vue'
 import CustomerLoveComponent from "../components/CustomerLove/CustomerLove.vue"
+import FooterComponent from "../components/Footer/Footer.vue"
 
 export default {
   name: 'Homepage',
@@ -79,6 +81,7 @@ export default {
     FeaturesComponent,
     ImageCarouselComponent,
     CustomerLoveComponent,
+    FooterComponent,
     // FeatureboxComponent
 
   }
