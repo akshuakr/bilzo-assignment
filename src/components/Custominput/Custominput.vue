@@ -4,7 +4,6 @@
 
 <script>
 
-// import ButtonComponent from '../Button/Button.vue'
 
 export default {
     name: 'CustominputComponent',
@@ -18,9 +17,7 @@ export default {
             default: '#F1F5F9'
         }
     },
-    components: {
-        // ButtonComponent
-    },
+
 }
 </script>
 

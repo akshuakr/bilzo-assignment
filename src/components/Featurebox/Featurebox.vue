@@ -1,12 +1,18 @@
 <template>
     <div class="container">
-        <!-- <div class="Headline2Text">Features that suit your needs</div>
-        <div class="subcontainer">H</div> -->
+
         <div class="top">
-            <img :src="imagePath" alt="No Image">
-            <!-- <img src="public/f1.svg"> -->
+            <div class="image-container">
+                <img :src="imagePath" alt="No Image" class="primary-image">
+                <img src="public/f.svg" alt="No Image" class="secondary-image">
+            </div>
+
             <div class="text1">
                 {{ heading }}
+            </div>
+
+            <div v-if="comingSoon" class="coming-soon">
+                Coming Soon
             </div>
         </div>
         <div class="text2">
@@ -46,9 +52,7 @@ export default {
             }
         }
     }
-    // components: {
 
-    // }
 }
 </script>
 

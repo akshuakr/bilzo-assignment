@@ -16,7 +16,7 @@
 <script>
 
 
-// import FeatureboxComponent from "../Featurebox/Featurebox.vue"
+
 
 
 export default {
@@ -48,9 +48,7 @@ export default {
         }
 
     },
-    components: {
-        // FeatureboxComponent
-    }
+
 }
 </script>
 

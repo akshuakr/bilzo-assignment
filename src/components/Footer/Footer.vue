@@ -19,7 +19,7 @@
                     </div>
                     <div class="right3 text">
                         Other Links
-                        <!-- <div> -->
+
                         <a href="https://www.linkedin.com/in/akshuakr/">
                             <img src="public/linkedin.svg" alt="">
                         </a>
@@ -28,7 +28,7 @@
                         </a>
 
 
-                        <!-- </div> -->
+
                     </div>
 
                 </div>
@@ -43,7 +43,7 @@
                 </div>
                 <div class="bottom-right">
                     Copyright © 2024 • ExpenseBook
-                    <!-- <img src="public/Ellipse.svg" alt=""> -->
+
                 </div>
             </div>
         </div>
@@ -53,14 +53,10 @@
 <script>
 
 
-// import FeatureboxComponent from "../Featurebox/Featurebox.vue"
-// import BoxComponent from "./Box.vue";
+
 
 export default {
     name: 'FooterComponent',
-    components: {
-        // BoxComponent,
-    }
 }
 </script>
 

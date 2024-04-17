@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <!-- <ButtonComponent /> -->
     <NavbarComponent />
     <div class="nav-bottomline"></div>
     <div class="hero">
@@ -15,10 +14,6 @@
         <ImageCarouselComponent />
       </div>
     </div>
-    <!-- <div class="used-by">
-
-    </div> -->
-    <!-- <FeatureboxComponent/> -->
     <FeaturesComponent />
     <div class="integrations1">
       <div class="Headline2Text">Integrations</div>
@@ -82,8 +77,6 @@ export default {
     ImageCarouselComponent,
     CustomerLoveComponent,
     FooterComponent,
-    // FeatureboxComponent
-
   }
 }
 </script>

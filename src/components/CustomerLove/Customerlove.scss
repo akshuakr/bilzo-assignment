@@ -8,11 +8,8 @@
 
     padding-top: 2rem;
     padding-bottom: 2rem;
-    // padding-left: 8rem;
-    // padding-right: 8rem;
-    row-gap: 2rem;
-    // z-index: 1;
 
+    row-gap: 2rem;
     @media (max-width: 650px) {
         // padding: 0%;
         // padding-top: 2rem;
@@ -26,7 +23,6 @@
 }
 
 .subcontainer {
-    
     width: 80%;
 
     display: grid;
@@ -42,8 +38,6 @@
         padding-right: 5%;
         row-gap: 1rem;
     }
-    // white-space: nowrap;
-    // padding: 0;
 }
 
 .Headline2Text {
@@ -53,15 +47,11 @@
     line-height: 51.2px;
     text-align: center;
 
-    // z-index: 1;
-
     background: linear-gradient(to right, #355ded, #6f33f0, #2d56ec, #2480eb, #1aacea);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     padding-left: 10%;
     padding-right: 10%;
-
-    // background-color: #1aacea;
 
     @media (max-width: 650px) {
         font-size: 28px;

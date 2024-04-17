@@ -12,7 +12,7 @@
 
 
             </div>
-            <!-- <p v-if="bottomForm">BottofForm</p> -->
+
             <div class="button">
                 <div>Start</div>
                 &nbsp;
@@ -25,7 +25,7 @@
             <img src="public/Ellipse.svg" alt="">
             Upto 10 users
         </div>
-        <!-- <ButtonComponent /> -->
+
     </div>
 
 

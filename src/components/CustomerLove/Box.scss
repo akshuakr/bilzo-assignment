@@ -1,26 +1,22 @@
 .container {
     display: flex;
     flex-direction: column;
-    // align-items: flex-start;
-    // align-self: flex-start;
-    // justify-content: flex-start;
-    // background-color: aqua;
+    
     border: rebeccapurple 1px solid;
     border-radius: 12px;
     padding: 24px;
-    // width: 30vw;
+
 }
 
 .bottom {
     display: flex;
     flex-direction: row;
-    // justify-content: flex-start;
-    // align-items: flex-start;
+    
     align-self: flex-start;
-    // justify-content: center;
+
     align-items: center;
     column-gap: 10px;
-    // background-color: aquamarine;
+
 }
 
 .right {
