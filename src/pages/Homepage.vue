@@ -10,7 +10,14 @@
         reporting & integrations. Inbuilt OCR expense scanning. Manage travel & non-travel expenses. Open APIs to
         connect with external systems.</div>
       <FormComponent />
+      <div class="used-by">
+        <div class="used-by-text">USED BY OVER 50 ENTERPRISES</div>
+        <ImageCarouselComponent/>
+      </div>
     </div>
+    <!-- <div class="used-by">
+
+    </div> -->
     <!-- <FeatureboxComponent/> -->
     <FeaturesComponent />
     <div class="integrations1">
@@ -62,6 +69,7 @@ import ButtonComponent from '../components/Button/Button.vue'
 import NavbarComponent from '../components/Navbar/Navbar.vue'
 import FormComponent from '../components/Form/Form.vue';
 import FeaturesComponent from '../components/Features/Features.vue';
+import ImageCarouselComponent from '../components/Carousel/Carousel.vue'
 // import FeatureboxComponent from "../components/Featurebox/Featurebox.vue"
 
 export default {
@@ -71,6 +79,7 @@ export default {
     NavbarComponent,
     FormComponent,
     FeaturesComponent,
+    ImageCarouselComponent
     // FeatureboxComponent
 
   }
