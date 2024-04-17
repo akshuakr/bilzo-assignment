@@ -83,8 +83,8 @@
 
     padding-top: 2rem;
     padding-bottom: 4rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
     row-gap: 7rem;
 
     @media (max-width: 650px) {
@@ -97,7 +97,7 @@
 
 .pointers {
     margin-top: 5px;
-    width: 70%;
+    width: 60%;
 
     position: absolute;
     z-index: 0;

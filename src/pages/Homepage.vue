@@ -11,6 +11,8 @@
         connect with external systems.</div>
       <FormComponent />
     </div>
+    <!-- <FeatureboxComponent/> -->
+    <FeaturesComponent />
     <div class="integrations1">
       <div class="Headline2Text">Integrations</div>
       <img src="public/pointers.svg" alt="" class="pointers">
@@ -59,6 +61,8 @@
 import ButtonComponent from '../components/Button/Button.vue'
 import NavbarComponent from '../components/Navbar/Navbar.vue'
 import FormComponent from '../components/Form/Form.vue';
+import FeaturesComponent from '../components/Features/Features.vue';
+// import FeatureboxComponent from "../components/Featurebox/Featurebox.vue"
 
 export default {
   name: 'Homepage',
@@ -66,6 +70,8 @@ export default {
     ButtonComponent,
     NavbarComponent,
     FormComponent,
+    FeaturesComponent,
+    // FeatureboxComponent
 
   }
 }
