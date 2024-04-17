@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    // align-items: flex-start;
+    // align-self: flex-start;
+    // justify-content: flex-start;
+    // background-color: aqua;
+    border: rebeccapurple 1px solid;
+    border-radius: 12px;
+    padding: 24px;
+    // width: 30vw;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    // justify-content: flex-start;
+    // align-items: flex-start;
+    align-self: flex-start;
+    // justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    // background-color: aquamarine;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.message {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.68px;
+    text-align: left;
+    color: #64748b;
+}
+.name {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28.4px;
+    text-align: left;
+    color: #475569;
+}
+.designation {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.24px;
+    text-align: left;
+    color: #64748b;
+}

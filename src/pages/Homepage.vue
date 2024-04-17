@@ -12,7 +12,7 @@
       <FormComponent />
       <div class="used-by">
         <div class="used-by-text">USED BY OVER 50 ENTERPRISES</div>
-        <ImageCarouselComponent/>
+        <ImageCarouselComponent />
       </div>
     </div>
     <!-- <div class="used-by">
@@ -53,9 +53,7 @@
         </div>
       </div>
     </div>
-    Will Dele
-    <br />
-    ,<br>
+    <CustomerLoveComponent />
     <div class="BottomForm">
       <div class="Headline2Text">Manage your travel and expenses the smart way!</div>
       <FormComponent :bottomForm="true" />
@@ -70,7 +68,7 @@ import NavbarComponent from '../components/Navbar/Navbar.vue'
 import FormComponent from '../components/Form/Form.vue';
 import FeaturesComponent from '../components/Features/Features.vue';
 import ImageCarouselComponent from '../components/Carousel/Carousel.vue'
-// import FeatureboxComponent from "../components/Featurebox/Featurebox.vue"
+import CustomerLoveComponent from "../components/CustomerLove/CustomerLove.vue"
 
 export default {
   name: 'Homepage',
@@ -79,7 +77,8 @@ export default {
     NavbarComponent,
     FormComponent,
     FeaturesComponent,
-    ImageCarouselComponent
+    ImageCarouselComponent,
+    CustomerLoveComponent,
     // FeatureboxComponent
 
   }
