@@ -13,12 +13,15 @@
                 text="Integrate with your upstream, HRMS or your downstream finance system to seamlessly deliver value through our Open APIs." />
             <FeatureboxComponent imagePath="f6.svg" heading="Configurable Workflows"
                 text="Configure approvals or rejections. Escalations and reports. At will. Setup new groups." />
-            <FeatureboxComponent imagePath="f7.svg" heading="Scan any Bill"
-                text="The world’s best OCR system backs up this product. All data goes in. 99% success." />
-            <FeatureboxComponent imagePath="f8.svg" heading="AI-Based Concierge"
-                text="Ask the concierge to change things during your travel - and it will trigger relevant actions 24x7." comingSoon="true"/>
             <FeatureboxComponent imagePath="f9.svg" heading="AI-Assisted Trip Planning"
-                text="Just tell us what you want to do in normal language and we will try and put together the best itinerary for you." comingSoon="true"/>
+                text="Just tell us what you want to do in normal language and we will try and put together the best itinerary for you." />
+            <FeatureboxComponent imagePath="f8.svg" heading="AI-Based Concierge"
+                text="Ask the concierge to change things during your travel - and it will trigger relevant actions 24x7."
+                comingSoon="true" />
+
+            <FeatureboxComponent imagePath="f7.svg" heading="Scan any Bill"
+                text="The world’s best OCR system backs up this product. All data goes in. 99% success."
+                comingSoon="true" />
         </div>
     </div>
 </template>

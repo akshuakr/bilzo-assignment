@@ -1,6 +1,11 @@
 .container {
     display: flex;
     flex-direction: column;
+    // align-items: center;
+    // justify-content: center;
+    // padding-left: 5rem;
+    // width: 80%;
+    // background-color: antiquewhite;
 }
 
 .top {
@@ -21,6 +26,10 @@
     line-height: 25.2px;
     text-align: left;
     color: #475569;
+
+    // @media (max-width: 650px){
+    //     font-size: 10px;
+    // }
 }
 
 .text2 {
@@ -31,6 +40,10 @@
     text-align: left;
 
     color: #64748b;
+
+    // @media (max-width: 650px){
+    //     font-size: 10px;
+    // }
 }
 
 .coming-soon {
@@ -48,6 +61,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+
 }
 
 .primary-image {
@@ -56,7 +70,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
 
-    width: 32px;
+    // width: 32px;
     height: auto;
 }
 
@@ -69,4 +83,9 @@
 .image-container {
     width: 46px;
     height: 46px;
+
+    // @media (max-width: 650px){
+    //     width: 40px;
+    // height: 40px;
+    // }
 }
